@@ -6,3 +6,7 @@ def test_import_sum_as_string():
 
 def test_import_pyo3_abc():
     import pyo3_abc
+
+
+def test_import_rust_set():
+    from pyo3_abc import RustSet
